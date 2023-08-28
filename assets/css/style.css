@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 
 * {
     padding: 0;
@@ -58,6 +58,29 @@
     margin-right: auto;
 }
 
+.button2 {
+    background: white;
+    padding: 13px 35px;
+    border: 1px solid #128DFF;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #128DFF;
+    font-family: 'Inter', sans-serif;
+    margin-top: 12px;
+    width: 230px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 400ms linear;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button2:hover{
+    background: linear-gradient(97.42deg, #128DFF -4.95%, #1444EF 109.04%);
+    color: white;
+}
+
 .relative {
     position: relative;
 }
@@ -86,7 +109,9 @@
 }
 
 .button:hover {
-    background: red;
+    background: white;
+    color: #128DFF;
+    border: 1px solid #128DFF;
 }
 
 .d-flex {
